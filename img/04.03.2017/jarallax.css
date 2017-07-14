@@ -1,0 +1,41 @@
+.jarallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+.head {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	min-height: 100vh;
+	font-size: 3rem;
+}
+
+#cover {
+	min-height: 100vh;
+	background-image: url(парк-комсомольское-озеро.jpg);
+}
+
+#second {
+	min-height: 50vh;
+	background-image: url(детское-ориентирование.jpg);
+}
+
+#third {
+	min-height: 50vh;
+	background-image: url(ориентирование-весной.jpg);
+}
+
+#fourth {
+	min-height: 50vh;
+	background-image: url(парковое-ориентирование.jpg);
+}
+
+#end {
+	min-height: 100vh;
+	background-image: url(команда-ориентирование.jpg);
+}

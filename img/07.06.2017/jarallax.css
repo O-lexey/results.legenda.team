@@ -1,0 +1,46 @@
+.jarallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+.head {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	min-height: 100vh;
+	font-size: 3rem;
+}
+
+#cover {
+	min-height: 100vh;
+	background-image: url("парк-победы.jpg");
+}
+
+#second {
+	min-height: 50vh;
+	background-image: url("детский-бег-1-километр.jpg");
+}
+
+#third {
+	min-height: 50vh;
+	background-image: url("бег-юноши-2-километра.jpg");
+}
+
+#fourth {
+	min-height: 50vh;
+	background-image: url("старт-3-километра.jpg");
+}
+
+#fifth {
+	min-height: 50vh;
+	background-image: url("ориентирование-с-заданием.jpg");
+}
+
+#end {
+	min-height: 100vh;
+	background-image: url("ориентирование-по-парку.jpg");
+}
